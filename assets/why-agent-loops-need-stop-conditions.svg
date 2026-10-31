@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475.59999999999997 356" width="475.59999999999997" height="356" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="475.59999999999997" height="356" fill="#fcfcfb"/>
+
+<text x="237.79999999999998" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Input tokens processed on a loop whose tool always fails</text>
+<line x1="119.8" y1="193.0" x2="355.8" y2="193.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="119.8" y1="148.0" x2="355.8" y2="148.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="119.8" y1="103.0" x2="355.8" y2="103.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 162.8,238 L 162.8,62.0 Q 162.8,58.0 166.8,58.0 L 180.8,58.0 Q 184.8,58.0 184.8,62.0 L 184.8,238 Z" fill="#cdccc3"/>
+<text x="173.79999999999998" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">4,485</text>
+<text x="173.8" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">15 calls</text>
+<text x="173.8" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">No stop rule</text>
+<text x="173.8" y="298.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">(own 15-step</text>
+<text x="173.8" y="312.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">cutoff)</text>
+<path d="M 290.8,238 L 290.8,225.5 Q 290.8,221.5 294.8,221.5 L 308.8,221.5 Q 312.8,221.5 312.8,225.5 L 312.8,238 Z" fill="#2a78d6"/>
+<text x="301.79999999999995" y="211.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">411</text>
+<text x="301.8" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">3 calls</text>
+<text x="301.8" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Repeat</text>
+<text x="301.8" y="298.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">detection</text>
+<text x="301.8" y="312.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">(halted at</text>
+<text x="301.8" y="326.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">step 3)</text>
+<line x1="119.8" y1="238" x2="355.8" y2="238" stroke="#c3c2b7" stroke-width="1"/>
+</svg>

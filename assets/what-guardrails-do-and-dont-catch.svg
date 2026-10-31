@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 668 326" width="668" height="326" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="668" height="326" fill="#fcfcfb"/>
+
+<text x="334.0" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Same 12 inputs, two guards</text>
+<line x1="40.0" y1="193.0" x2="628.0" y2="193.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="148.0" x2="628.0" y2="148.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="103.0" x2="628.0" y2="103.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 83.0,238 L 83.0,197.0 Q 83.0,193.0 87.0,193.0 L 101.0,193.0 Q 105.0,193.0 105.0,197.0 L 105.0,238 Z" fill="#2a78d6"/>
+<text x="94.0" y="183.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">2</text>
+<text x="94.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">attacks caught</text>
+<text x="94.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">(of 8)</text>
+<path d="M 171.0,238 L 171.0,107.0 Q 171.0,103.0 175.0,103.0 L 189.0,103.0 Q 193.0,103.0 193.0,107.0 L 193.0,238 Z" fill="#d03b3b"/>
+<text x="182.0" y="93.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">6</text>
+<text x="182.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">attacks missed</text>
+<path d="M 259.0,238 L 259.0,219.5 Q 259.0,215.5 263.0,215.5 L 277.0,215.5 Q 281.0,215.5 281.0,219.5 L 281.0,238 Z" fill="#898781"/>
+<text x="270.0" y="205.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1</text>
+<text x="270.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">benign wrongly</text>
+<text x="270.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">blocked (of 4)</text>
+<text x="182.0" y="296.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Keyword rule</text>
+<path d="M 387.0,238 L 387.0,62.0 Q 387.0,58.0 391.0,58.0 L 405.0,58.0 Q 409.0,58.0 409.0,62.0 L 409.0,238 Z" fill="#2a78d6"/>
+<text x="398.0" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">8</text>
+<text x="398.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">attacks caught</text>
+<text x="398.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">(of 8)</text>
+<path d="M 475.0,238 L 475.0,237.2 Q 475.0,236.5 475.8,236.5 L 496.2,236.5 Q 497.0,236.5 497.0,237.2 L 497.0,238 Z" fill="#d03b3b"/>
+<text x="486.0" y="226.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0</text>
+<text x="486.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">attacks missed</text>
+<path d="M 563.0,238 L 563.0,237.2 Q 563.0,236.5 563.8,236.5 L 584.2,236.5 Q 585.0,236.5 585.0,237.2 L 585.0,238 Z" fill="#898781"/>
+<text x="574.0" y="226.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0</text>
+<text x="574.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">benign wrongly</text>
+<text x="574.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">blocked (of 4)</text>
+<text x="486.0" y="296.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">llama3.1:8b classifier</text>
+<line x1="40.0" y1="238" x2="628.0" y2="238" stroke="#c3c2b7" stroke-width="1"/>
+</svg>

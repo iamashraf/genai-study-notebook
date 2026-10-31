@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376.8 370" width="376.8" height="370" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="376.8" height="370" fill="#fcfcfb"/>
+
+<text x="188.4" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Tokens sent to the model, 5 questions total</text>
+<line x1="70.4" y1="193.0" x2="306.4" y2="193.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="70.4" y1="148.0" x2="306.4" y2="148.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="70.4" y1="103.0" x2="306.4" y2="103.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 113.4,238 L 113.4,62.0 Q 113.4,58.0 117.4,58.0 L 131.4,58.0 Q 135.4,58.0 135.4,62.0 L 135.4,238 Z" fill="#cdccc3"/>
+<text x="124.4" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">6,863 tokens</text>
+<text x="124.4" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Preload all 8</text>
+<text x="124.4" y="298.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">docs (5 of 5</text>
+<text x="124.4" y="312.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">correct)</text>
+<path d="M 241.4,238 L 241.4,201.4 Q 241.4,197.4 245.4,197.4 L 259.4,197.4 Q 263.4,197.4 263.4,201.4 L 263.4,238 Z" fill="#2a78d6"/>
+<text x="252.4" y="187.4" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1,549 tokens</text>
+<text x="252.4" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Just-in-time:</text>
+<text x="252.4" y="298.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">catalogue,</text>
+<text x="252.4" y="312.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">then open 1</text>
+<text x="252.4" y="326.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">file (4 of 5</text>
+<text x="252.4" y="340.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">correct)</text>
+<line x1="70.4" y1="238" x2="306.4" y2="238" stroke="#c3c2b7" stroke-width="1"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" width="700" height="250" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="700" height="250" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="90.0" y1="104.5" x2="90.0" y2="154.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="161.0" y1="190.0" x2="219.0" y2="190.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="361.0" y1="190.0" x2="419.0" y2="190.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="490.0" y1="96.0" x2="490.0" y2="154.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="559.7" y1="157.5" x2="584.6" y2="145.9" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="25.0" y="21.5" width="130" height="77" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="90" y="44.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Attacker edits a</text>
+<text x="90" y="60.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">web page or</text>
+<text x="90" y="76.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">document</text>
+<rect x="25.0" y="160.0" width="130" height="60" rx="8" fill="#fbe3e3" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="90" y="182.0" font-size="12" fill="#d03b3b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Content with</text>
+<text x="90" y="198.0" font-size="12" fill="#d03b3b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">hidden line</text>
+<rect x="225.0" y="160.0" width="130" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="290" y="182.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Retriever</text>
+<text x="290" y="198.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">fetches it later</text>
+<rect x="425.0" y="160.0" width="130" height="60" rx="8" fill="#fbe3e3" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="490" y="182.0" font-size="12" fill="#d03b3b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Prompt: question</text>
+<text x="490" y="198.0" font-size="12" fill="#d03b3b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">+ fetched text</text>
+<rect x="590.0" y="81.5" width="100" height="77" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="640" y="104.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Hidden line</text>
+<text x="640" y="120.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">reaches</text>
+<text x="640" y="136.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">the model</text>
+<rect x="425.0" y="30.0" width="130" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="490" y="52.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">User asks a</text>
+<text x="490" y="68.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">normal question</text>
+</svg>

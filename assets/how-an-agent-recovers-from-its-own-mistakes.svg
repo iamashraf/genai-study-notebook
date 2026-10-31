@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 215" width="780" height="215" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="780" height="215" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="176.0" y1="65.0" x2="209.0" y2="65.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="341.0" y1="65.0" x2="379.0" y2="65.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="561.0" y1="65.0" x2="599.0" y2="65.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="580.0" y="57.0" font-size="11" fill="#898781" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">reads it</text>
+<line x1="470.0" y1="118.0" x2="470.0" y2="134.0" stroke="#898781" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="20.0" y="26.5" width="150" height="77" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="95" y="49.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Attempt 1:</text>
+<text x="95" y="65.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">start_date =</text>
+<text x="95" y="81.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">2025-03-03</text>
+<rect x="215.0" y="35.0" width="120" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="275" y="57.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Tool rejects</text>
+<text x="275" y="73.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">the call</text>
+<rect x="385.0" y="18.0" width="170" height="94" rx="8" fill="#dbe8fa" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="470" y="41.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Error returned as</text>
+<text x="470" y="57.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">text: must be</text>
+<text x="470" y="73.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">YYYYMMDD, got</text>
+<text x="470" y="89.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">&#x27;2025-03-03&#x27;</text>
+<rect x="605.0" y="26.5" width="150" height="77" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="680" y="49.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Attempt 2:</text>
+<text x="680" y="65.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">start_date =</text>
+<text x="680" y="81.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">20250303</text>
+<rect x="210.0" y="140.0" width="520" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="470" y="162.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Measured on 5 tasks each (llama3.1:8b): vague error fixed 0 of 5,</text>
+<text x="470" y="178.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">descriptive error fixed 4 of 5</text>
+</svg>

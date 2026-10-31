@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452.79999999999995 326" width="452.79999999999995" height="326" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="452.79999999999995" height="326" fill="#fcfcfb"/>
+
+<text x="226.39999999999998" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Time to read a 2,676-token prompt</text>
+<line x1="84.4" y1="193.0" x2="368.4" y2="193.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="84.4" y1="148.0" x2="368.4" y2="148.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="84.4" y1="103.0" x2="368.4" y2="103.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 127.4,238 L 127.4,237.4 Q 127.4,236.2 128.6,236.2 L 148.20000000000002,236.2 Q 149.4,236.2 149.4,237.4 L 149.4,238 Z" fill="#2a78d6"/>
+<text x="138.39999999999998" y="225.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">359 ms</text>
+<text x="138.4" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Same start, new</text>
+<text x="138.4" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">question at end</text>
+<path d="M 215.4,238 L 215.4,62.0 Q 215.4,58.0 219.4,58.0 L 233.4,58.0 Q 237.4,58.0 237.4,62.0 L 237.4,238 Z" fill="#cdccc3"/>
+<text x="226.39999999999998" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">35,674 ms</text>
+<text x="226.4" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">First line</text>
+<text x="226.4" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">changed</text>
+<path d="M 303.4,238 L 303.4,64.7 Q 303.4,60.7 307.4,60.7 L 321.4,60.7 Q 325.4,60.7 325.4,64.7 L 325.4,238 Z" fill="#cdccc3"/>
+<text x="314.4" y="50.7" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">35,129 ms</text>
+<text x="314.4" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Very first call</text>
+<text x="314.4" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">(cold, 1 run)</text>
+<line x1="84.4" y1="238" x2="368.4" y2="238" stroke="#c3c2b7" stroke-width="1"/>
+</svg>
