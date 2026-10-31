@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="640" height="220" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="110.0" y1="91.0" x2="110.0" y2="124.0" stroke="#2a78d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="450.0" y1="91.0" x2="450.0" y2="124.0" stroke="#6250d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="40.0" y="35.0" width="140" height="50" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="110" y="60.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Thermostat</text>
+<rect x="-5.0" y="130.0" width="230" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="110" y="152.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">one fixed rule, same reaction</text>
+<text x="110" y="168.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">every time</text>
+<rect x="370.0" y="35.0" width="160" height="50" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="450" y="60.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Chess engine</text>
+<rect x="320.0" y="130.0" width="260" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="450" y="152.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">searches many move sequences, picks</text>
+<text x="450" y="168.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">the best per position</text>
+</svg>

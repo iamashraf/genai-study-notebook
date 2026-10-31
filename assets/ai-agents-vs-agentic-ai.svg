@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="580" height="210" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="580" height="210" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="245.9" y1="68.9" x2="190.0" y2="116.1" stroke="#2a78d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="316.5" y1="68.7" x2="377.1" y2="116.3" stroke="#6250d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="120.0" y="15.0" width="320" height="50" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="280" y="40.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Same task: retrieve docs, summarize, email</text>
+<rect x="25.0" y="120.0" width="250" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="150" y="142.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Workflow: code decides, fixed step</text>
+<text x="150" y="158.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">1 -&gt; step 2 -&gt; step 3</text>
+<rect x="295.0" y="120.0" width="250" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="420" y="142.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Agent: LLM decides, re-evaluates</text>
+<text x="420" y="158.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">after each step</text>
+</svg>

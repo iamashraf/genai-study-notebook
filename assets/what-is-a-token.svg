@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 134" width="620" height="134" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="620" height="134" fill="#fcfcfb"/>
+
+<text x="310.0" y="22.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">&quot;strawberry&quot; -&gt; o200k_base -&gt; 3 tokens</text>
+<text x="16" y="68.0" font-size="10" fill="#52514e" font-weight="700" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">token id, decoded piece</text>
+<rect x="16" y="76" width="73.6" height="24" rx="5" fill="#2a78d6"/>
+<text x="52.8" y="92.0" font-size="11" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">st (302)</text>
+<rect x="95.6" y="76" width="88.0" height="24" rx="5" fill="#eb6834"/>
+<text x="139.6" y="92.0" font-size="11" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">raw (1618)</text>
+<rect x="189.6" y="76" width="109.6" height="24" rx="5" fill="#1baf7a"/>
+<text x="244.4" y="92.0" font-size="11" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">berry (19772)</text>
+</svg>

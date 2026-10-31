@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="760" height="300" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="247.5" y1="57.8" x2="192.0" y2="87.2" stroke="#2a78d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="130.0" y1="156.0" x2="130.0" y2="189.0" stroke="#2a78d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="352.5" y1="57.8" x2="398.6" y2="82.2" stroke="#6250d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="470.0" y1="161.0" x2="470.0" y2="199.0" stroke="#6250d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="150.0" y="5.0" width="300" height="50" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="300" y="30.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">&#x27;Write one sentence about the ocean.&#x27;</text>
+<rect x="15.0" y="90.0" width="230" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="130" y="112.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">temperature = 0: always the top</text>
+<text x="130" y="128.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">token</text>
+<rect x="15.0" y="195.0" width="230" height="50" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="130" y="220.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">identical sentence, both calls</text>
+<rect x="340.0" y="85.0" width="260" height="70" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="470" y="112.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">temperature = 1: occasionally</text>
+<text x="470" y="128.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">samples a lower-probability token</text>
+<rect x="355.0" y="205.0" width="230" height="50" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="470" y="230.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">different wording, each call</text>
+</svg>

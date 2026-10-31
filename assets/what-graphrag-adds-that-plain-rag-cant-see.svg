@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="650" height="200" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="650" height="200" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="156.0" y1="100.0" x2="269.0" y2="100.0" stroke="#2a78d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="212.5" y="92.0" font-size="11" fill="#2a78d6" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">UTILIZES</text>
+<line x1="391.0" y1="100.0" x2="509.0" y2="100.0" stroke="#6250d6" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="450.0" y="92.0" font-size="11" fill="#6250d6" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">MANAGED_BY</text>
+<circle cx="90" cy="100" r="60" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="90" y="92.0" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Wastewater</text>
+<text x="90" y="108.0" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Surveillance</text>
+<circle cx="330" cy="100" r="55" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="330" y="92.0" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">BioSense Sensor</text>
+<text x="330" y="108.0" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Network</text>
+<circle cx="560" cy="100" r="45" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="560" y="100.0" font-size="11.5" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Jane Doe</text>
+</svg>

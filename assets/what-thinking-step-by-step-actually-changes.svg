@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 310" width="560" height="310" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="560" height="310" fill="#fcfcfb"/>
+
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#898781"/></marker></defs>
+<line x1="214.3" y1="73.5" x2="155.7" y2="116.5" stroke="#d03b3b" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="308.6" y1="73.4" x2="371.4" y2="116.6" stroke="#0ca30c" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="420.0" y1="186.0" x2="420.0" y2="219.0" stroke="#0ca30c" stroke-width="1.6" marker-end="url(#arrow)"/>
+<rect x="120.0" y="10.0" width="280" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="260" y="32.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">24 balls, half golf balls, half of</text>
+<text x="260" y="48.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">those blue</text>
+<rect x="0.0" y="120.0" width="220" height="60" rx="8" fill="#d03b3b" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="110" y="142.0" font-size="12" fill="#ffffff" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">direct answer: &#x27;12&#x27; (wrong --</text>
+<text x="110" y="158.0" font-size="12" fill="#ffffff" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">skipped the second halving)</text>
+<rect x="310.0" y="120.0" width="220" height="60" rx="8" fill="#f3f2ef" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="420" y="142.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">&#x27;let&#x27;s think step by step&#x27;:</text>
+<text x="420" y="158.0" font-size="12" fill="#0b0b0b" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">24/2=12, then 12/2=6</text>
+<rect x="330.0" y="225.0" width="180" height="50" rx="8" fill="#0ca30c" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="420" y="250.0" font-size="12" fill="#ffffff" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">answer: 6 (correct)</text>
+</svg>

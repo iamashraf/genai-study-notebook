@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 230" width="460" height="230" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="460" height="230" fill="#fcfcfb"/>
+
+<text x="230.0" y="22.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Loss drops across 5 real gradient-descent steps</text>
+<line x1="50" y1="79.0" x2="434" y2="79.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="50" y1="114.0" x2="434" y2="114.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="50" y1="149.0" x2="434" y2="149.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 50.0,44.0 L 146.0,105.8 L 242.0,161.4 L 338.0,182.1 L 434.0,184.0 L 434.0,184 L 50.0,184 Z" fill="#2a78d6" opacity="0.08"/>
+<path d="M 50.0,44.0 L 146.0,105.8 L 242.0,161.4 L 338.0,182.1 L 434.0,184.0" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="50.0" cy="44.0" r="4" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/>
+<text x="50.0" y="202.0" font-size="9.5" fill="#898781" font-weight="400" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">step 1</text>
+<text x="50.0" y="32.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">57</text>
+<circle cx="146.0" cy="105.8" r="4" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/>
+<text x="146.0" y="202.0" font-size="9.5" fill="#898781" font-weight="400" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">step 2</text>
+<text x="146.0" y="93.8" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1.94</text>
+<circle cx="242.0" cy="161.4" r="4" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/>
+<text x="242.0" y="202.0" font-size="9.5" fill="#898781" font-weight="400" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">step 3</text>
+<text x="242.0" y="149.4" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.093</text>
+<circle cx="338.0" cy="182.1" r="4" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/>
+<text x="338.0" y="202.0" font-size="9.5" fill="#898781" font-weight="400" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">step 4</text>
+<text x="338.0" y="170.1" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.03</text>
+<circle cx="434.0" cy="184.0" r="4" fill="#fcfcfb" stroke="#2a78d6" stroke-width="2"/>
+<text x="434.0" y="202.0" font-size="9.5" fill="#898781" font-weight="400" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">step 5</text>
+<text x="434.0" y="172.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.027</text>
+<line x1="50" y1="184" x2="434" y2="184" stroke="#c3c2b7" stroke-width="1"/>
+<text x="14" y="114" font-size="9.5" fill="#898781" text-anchor="middle" transform="rotate(-90 14 114)" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">loss (log scale)</text>
+</svg>

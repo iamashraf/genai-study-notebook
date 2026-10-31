@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 346" width="492" height="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="492" height="346" fill="#fcfcfb"/>
+
+<text x="246.0" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">BM25 vs vector: top score per query</text>
+<rect x="156.0" y="42" width="10" height="10" rx="2" fill="#2a78d6"/>
+<text x="172.0" y="51" font-size="10.5" fill="#52514e" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">BM25</text>
+<rect x="246.0" y="42" width="10" height="10" rx="2" fill="#eb6834"/>
+<text x="262.0" y="51" font-size="10.5" fill="#52514e" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">vector</text>
+<line x1="40.0" y1="211.0" x2="452.0" y2="211.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="166.0" x2="452.0" y2="166.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="121.0" x2="452.0" y2="121.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 83.0,256 L 83.0,80.0 Q 83.0,76.0 87.0,76.0 L 101.0,76.0 Q 105.0,76.0 105.0,80.0 L 105.0,256 Z" fill="#2a78d6"/>
+<text x="94.0" y="66.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1.0067</text>
+<text x="94.0" y="274.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">BM25</text>
+<path d="M 171.0,256 L 171.0,136.0 Q 171.0,132.0 175.0,132.0 L 189.0,132.0 Q 193.0,132.0 193.0,136.0 L 193.0,256 Z" fill="#eb6834"/>
+<text x="182.0" y="122.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.6935</text>
+<text x="182.0" y="274.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">vector</text>
+<text x="138.0" y="302.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">&#x27;QX-4471&#x27; (exact code)</text>
+<path d="M 299.0,256 L 299.0,255.2 Q 299.0,254.5 299.8,254.5 L 320.2,254.5 Q 321.0,254.5 321.0,255.2 L 321.0,256 Z" fill="#2a78d6"/>
+<text x="310.0" y="244.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.0000</text>
+<text x="310.0" y="274.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">BM25</text>
+<path d="M 387.0,256 L 387.0,154.0 Q 387.0,150.0 391.0,150.0 L 405.0,150.0 Q 409.0,150.0 409.0,154.0 L 409.0,256 Z" fill="#eb6834"/>
+<text x="398.0" y="140.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.5929</text>
+<text x="398.0" y="274.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">vector</text>
+<text x="354.0" y="302.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">&#x27;get my money back...&#x27;</text>
+<text x="354.0" y="316.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">(paraphrase)</text>
+<line x1="40.0" y1="256" x2="452.0" y2="256" stroke="#c3c2b7" stroke-width="1"/>
+</svg>
