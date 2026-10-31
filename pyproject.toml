@@ -1,0 +1,8 @@
+[project]
+name = "genai-study-notebook"
+version = "0.1.0"
+description = "Runnable examples backing claims in the posts"
+requires-python = ">=3.12"
+dependencies = [
+    "tiktoken>=0.14.0",
+]
