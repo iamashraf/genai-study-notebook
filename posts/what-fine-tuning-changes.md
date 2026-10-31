@@ -26,6 +26,8 @@ OpenAI's InstructGPT paper is itself the real example: starting from a pretraine
 
 Fine-tuning only shifts behavior toward whatever examples it's given. It doesn't generalize cleanly beyond the style and range of that dataset, so a narrow or biased set of examples produces a narrowly or biased-shifted model. It also assumes someone can write out a correct example answer for each case, which gets hard fast for open-ended tasks where "correct" is more about which answer is *better*, not which one is *right*. That is the problem the next stage exists to solve.
 
+Cheaper ways to fine-tune: [LoRA](what-lora-changes-in-a-model.md), [QLoRA](what-qlora-adds-to-lora.md) and [other parameter-efficient methods](what-other-parameter-efficient-methods-exist.md).
+
 ## Takeaway
 
 Fine-tuning is training, again, on purpose-built data, starting from a model that already knows the basics instead of from nothing.

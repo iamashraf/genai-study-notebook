@@ -73,3 +73,11 @@ private by default — only shared if you open the page and share it.
 | [What Is a Jailbreak, and Why Does It Work?](posts/what-a-jailbreak-is-and-why-it-works.md) |
 | [What Do Guardrails Actually Catch, and What Slips Through?](posts/what-guardrails-do-and-dont-catch.md) |
 | [Why Does Giving an LLM Tools Raise the Security Stakes?](posts/why-an-agent-with-tools-raises-the-stakes.md) |
+| [What Does LoRA Change in a Model?](posts/what-lora-changes-in-a-model.md) |
+| [What Does QLoRA Add to LoRA?](posts/what-qlora-adds-to-lora.md) |
+| [What Other Ways Exist to Fine-Tune Without Changing Every Weight?](posts/what-other-parameter-efficient-methods-exist.md) |
+| [What Does a Flat (Full-Scan) Vector Search Actually Cost?](posts/what-flat-vector-search-costs.md) |
+| [How Does an IVF Index Trade Accuracy for Speed?](posts/how-ivf-trades-recall-for-speed.md) |
+| [What Does ScaNN Do Differently From Other Vector Indexes?](posts/what-scann-does-differently.md) |
+| [How Does Vector Search Decide Two Vectors Are Similar?](posts/how-vector-search-measures-similarity.md) |
+| [What Does Compressing Vectors Trade Away?](posts/what-vector-quantization-trades-away.md) |

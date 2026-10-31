@@ -1,0 +1,13 @@
+vectors=20000 dim=64 centroids=256 queries=200 seed=0 (synthetic data)
+average length of original vector:   17.860
+average length of parallel error:    3.368
+average length of perpendicular error: 6.933
+
+share of the true top-10 that drops out of the top-10 (mean over 200 queries):
+  full quantisation error applied:  95.8%
+  only parallel error applied:      37.1%
+  only perpendicular error applied: 63.0%
+
+mean squared change in the score <q, x> caused by an error of length 1:
+  true top-10 pairs  along the vector:   8.50   sideways:  1.56   ratio:   5.5
+  random pairs       along the vector:   0.96   sideways:  0.96   ratio:   1.0

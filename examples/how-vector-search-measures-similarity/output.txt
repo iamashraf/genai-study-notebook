@@ -1,0 +1,37 @@
+sentences: 40, dimensions: 768
+raw sentence vector length: min 0.999999, mean 1.000000, max 1.000000
+raw query vector length:    min 1.000000, max 1.000000
+
+Top-5 results that differ from cosine's top 5 (0 = same five sentences):
+query     vectors  dot  euclid  dot vs euclid
+cooking   raw        0       0              0
+cooking   scaled     0       0              0
+travel    raw        0       0              0
+travel    scaled     0       0              0
+finance   raw        0       0              0
+finance   scaled     0       0              0
+sports    raw        0       0              0
+sports    scaled     0       0              0
+weather   raw        0       0              0
+weather   scaled     0       0              0
+
+On-topic hits in cosine top 5 (raw):
+cooking   3/5
+travel    4/5
+finance   5/5
+sports    4/5
+weather   4/5
+
+Synthetic check (numpy seed 0, 4 dimensions, 8 candidates with unequal lengths):
+id  length  cosine     dot  distance
+ 0    0.93   0.955   0.893     0.298
+ 1    3.69   0.663   2.449     3.119
+ 2    2.77   0.676   1.873     2.218
+ 3    1.76  -0.217  -0.382     2.203
+ 4    2.58   0.781   2.017     1.908
+ 5    4.48   0.768   3.442     3.767
+ 6    4.69   0.926   4.341     3.783
+ 7    1.98   0.826   1.636     1.286
+top 3 by cosine    : [0, 6, 7]
+top 3 by dot       : [6, 5, 1]
+top 3 by neg_euclid: [0, 7, 4]

@@ -44,6 +44,8 @@ The clustering step grouped the refund-related documents together on its own, fr
 
 This script hand-rolls a simplified IVF for one query against nine documents. It skips what makes IVF genuinely hard at scale: choosing how many clusters to build, how many clusters to check per query (checking only one risks missing a match that landed in a neighboring cluster near the boundary), and keeping clusters balanced as data keeps getting added. HNSW solves a different part of this problem and comes with its own cost: "HNSW indexes take up a significant amount of memory" [1], since it has to store the graph's edges alongside the vectors themselves. None of these indexes replace [picking the right chunk size](why-chunking-strategy-matters-more-than-your-database.md) or [combining vector search with keyword search](why-rag-systems-combine-keyword-and-vector-search.md). An index just decides how fast you can search whatever you already chose to store.
 
+Deeper dives: [flat search cost](what-flat-vector-search-costs.md), [IVF](how-ivf-trades-recall-for-speed.md) and [ScaNN](what-scann-does-differently.md).
+
 ## Takeaway
 
 There's no single best index. Pinecone's own framing of this is that there are "four indexes, with equally potent pros and cons — depending on the use-case" [1]. Flat is exact but doesn't scale, IVF and HNSW both scale by skipping most of the data on purpose, and which one a vector database should pick depends on how much memory you have and how much accuracy you're willing to trade for speed.

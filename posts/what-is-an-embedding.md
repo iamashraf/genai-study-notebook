@@ -1,6 +1,6 @@
 # Why Is "Kitten" Closer to "Cat" Than "Car" Is?
 
-*~2 min read*
+*~3 min read*
 
 **One-line answer:** an embedding is a list of numbers assigned to a [token](what-is-a-token.md), learned during [training](how-a-program-learns.md) so that tokens used in similar ways end up close together in that number-space, close enough that you can measure it [1].
 
@@ -41,6 +41,8 @@ These are real computed vectors, not hand-picked numbers. "Kitten" lands much cl
 ## When this picture isn't enough
 
 Embeddings capture whatever patterns showed up in the training data, not a human-curated notion of meaning, so similarity can reflect incidental correlations as easily as real semantic closeness, and biases in the training data get baked into the vectors along with everything else. Also, the embedding described here is a word's *starting* vector, before it enters the network. Once attention mixes it with context from other tokens, the vector that actually represents "cat" in a specific sentence has already moved from this static starting point.
+
+How closeness between embeddings is scored: [similarity measures](how-vector-search-measures-similarity.md); how they are compressed: [vector quantization](what-vector-quantization-trades-away.md).
 
 ## Takeaway
 

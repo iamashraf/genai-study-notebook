@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 314" width="700" height="314" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="700" height="314" fill="#fcfcfb"/>
+
+<text x="350.0" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Full-scan time per query by number of vectors (this run, ms)</text>
+<line x1="40.0" y1="193.0" x2="660.0" y2="193.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="148.0" x2="660.0" y2="148.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="103.0" x2="660.0" y2="103.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 83.0,238 L 83.0,236.5 Q 83.0,235.0 84.5,235.0 L 103.5,235.0 Q 105.0,235.0 105.0,236.5 L 105.0,238 Z" fill="#2a78d6"/>
+<text x="94.0" y="225.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.09</text>
+<text x="94.0" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">10,000 vectors</text>
+<path d="M 211.0,238 L 211.0,222.3 Q 211.0,218.3 215.0,218.3 L 229.0,218.3 Q 233.0,218.3 233.0,222.3 L 233.0,238 Z" fill="#2a78d6"/>
+<text x="222.0" y="208.3" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.60</text>
+<text x="222.0" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">50,000</text>
+<path d="M 339.0,238 L 339.0,211.5 Q 339.0,207.5 343.0,207.5 L 357.0,207.5 Q 361.0,207.5 361.0,211.5 L 361.0,238 Z" fill="#2a78d6"/>
+<text x="350.0" y="197.5" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.93</text>
+<text x="350.0" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">100,000</text>
+<path d="M 467.0,238 L 467.0,120.4 Q 467.0,116.4 471.0,116.4 L 485.0,116.4 Q 489.0,116.4 489.0,120.4 L 489.0,238 Z" fill="#2a78d6"/>
+<text x="478.0" y="106.4" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">3.71</text>
+<text x="478.0" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">250,000</text>
+<path d="M 595.0,238 L 595.0,62.0 Q 595.0,58.0 599.0,58.0 L 613.0,58.0 Q 617.0,58.0 617.0,62.0 L 617.0,238 Z" fill="#2a78d6"/>
+<text x="606.0" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">5.49</text>
+<text x="606.0" y="284.0" font-size="10.5" fill="#52514e" font-weight="600" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">500,000</text>
+<line x1="40.0" y1="238" x2="660.0" y2="238" stroke="#c3c2b7" stroke-width="1"/>
+</svg>

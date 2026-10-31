@@ -1,0 +1,14 @@
+Part 1: one 4096x4096 weight matrix
+full fine-tune trainable: 16,777,216
+LoRA rank  1:     8,192 trainable = 0.049% of full
+LoRA rank  4:    32,768 trainable = 0.195% of full
+LoRA rank  8:    65,536 trainable = 0.391% of full
+LoRA rank 16:   131,072 trainable = 0.781% of full
+LoRA rank 64:   524,288 trainable = 3.125% of full
+
+Part 2: frozen 64x64 W, true change has rank 4
+error before training (change not yet learned): 1.000000
+rank 1: final error 0.759380  (trainable 128 vs full 4,096)
+rank 2: final error 0.557932  (trainable 256 vs full 4,096)
+rank 4: final error 0.000000  (trainable 512 vs full 4,096)
+rank 8: final error 0.000000  (trainable 1,024 vs full 4,096)

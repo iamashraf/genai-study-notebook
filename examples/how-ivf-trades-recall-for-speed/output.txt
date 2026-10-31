@@ -1,0 +1,10 @@
+synthetic data: 100000 vectors, dim 64, 200 blobs, 256 k-means clusters, 200 queries
+cluster sizes: min 0, median 473, max 1430
+searched  recall@10  compared  ms/query
+       1      0.884     0.49%      0.08
+       2      0.983     1.07%      0.13
+       4      1.000     2.39%      0.27
+       8      1.000     4.83%      0.54
+      16      1.000     9.25%      1.09
+      32      1.000    16.86%      2.05
+full scan      1.000   100.00%      7.98   (exact answer, 100% recall by definition)

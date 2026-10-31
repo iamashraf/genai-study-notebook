@@ -1,0 +1,10 @@
+paragraphs: 196
+embedding dimensions: 768
+PQ: 96 subvectors x 16 centroids (196 vectors are too few to train 256 centroids)
+
+method          bytes/vector  saved vs float32  recall@10
+float32                 3072              0.0%      1.000
+float16                 1536             50.0%      1.000
+int8 scalar              768             75.0%      1.000
+1-bit binary              96             96.9%      0.785
+PQ 96x16                  48             98.4%      0.828

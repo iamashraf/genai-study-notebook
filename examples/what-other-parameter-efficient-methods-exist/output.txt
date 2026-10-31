@@ -1,0 +1,10 @@
+Configuration: 12 layers, hidden size 768, adapter bottleneck 64, prefix length 20, prompt length 20
+Full model (blocks only): 85,054,464 parameters
+
+Method                 Trainable   % of full
+Full fine-tuning      85,054,464    100.000%
+Adapters               2,379,264      2.797%
+Prefix tuning            368,640      0.433%
+Prompt tuning             15,360      0.018%
+
+Full / prompt tuning ratio: 5,537x

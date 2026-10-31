@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 326" width="540" height="326" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="540" height="326" fill="#fcfcfb"/>
+
+<text x="270.0" y="24.0" font-size="13.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">recall@10 vs float32 (196 paragraphs, 40 queries)</text>
+<line x1="40.0" y1="193.0" x2="500.0" y2="193.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="148.0" x2="500.0" y2="148.0" stroke="#e1e0d9" stroke-width="1"/>
+<line x1="40.0" y1="103.0" x2="500.0" y2="103.0" stroke="#e1e0d9" stroke-width="1"/>
+<path d="M 83.0,238 L 83.0,62.0 Q 83.0,58.0 87.0,58.0 L 101.0,58.0 Q 105.0,58.0 105.0,62.0 L 105.0,238 Z" fill="#cdccc3"/>
+<text x="94.0" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1.000</text>
+<text x="94.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">float32 (3072</text>
+<text x="94.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">bytes)</text>
+<path d="M 171.0,238 L 171.0,62.0 Q 171.0,58.0 175.0,58.0 L 189.0,58.0 Q 193.0,58.0 193.0,62.0 L 193.0,238 Z" fill="#cdccc3"/>
+<text x="182.0" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1.000</text>
+<text x="182.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">float16 (1536</text>
+<text x="182.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">bytes)</text>
+<path d="M 259.0,238 L 259.0,62.0 Q 259.0,58.0 263.0,58.0 L 277.0,58.0 Q 281.0,58.0 281.0,62.0 L 281.0,238 Z" fill="#cdccc3"/>
+<text x="270.0" y="48.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1.000</text>
+<text x="270.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">int8 (768</text>
+<text x="270.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">bytes)</text>
+<path d="M 347.0,238 L 347.0,100.7 Q 347.0,96.7 351.0,96.7 L 365.0,96.7 Q 369.0,96.7 369.0,100.7 L 369.0,238 Z" fill="#2a78d6"/>
+<text x="358.0" y="86.7" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.785</text>
+<text x="358.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">1-bit (96</text>
+<text x="358.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">bytes)</text>
+<path d="M 435.0,238 L 435.0,93.0 Q 435.0,89.0 439.0,89.0 L 453.0,89.0 Q 457.0,89.0 457.0,93.0 L 457.0,238 Z" fill="#2a78d6"/>
+<text x="446.0" y="79.0" font-size="10" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0.828</text>
+<text x="446.0" y="256.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">PQ 96x16 (48</text>
+<text x="446.0" y="268.0" font-size="9" fill="#898781" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">bytes)</text>
+<line x1="40.0" y1="238" x2="500.0" y2="238" stroke="#c3c2b7" stroke-width="1"/>
+</svg>

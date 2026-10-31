@@ -1,0 +1,10 @@
+Part 1: memory to store 7B weights
+  16-bit: 14.0 GB
+   8-bit: 7.0 GB
+   4-bit: 3.5 GB
+
+Part 2: synthetic 4096x4096 Gaussian matrix, block size 64, fixed seed 0
+  16-bit storage: 33.6 MB
+  8-bit: mean abs error 0.00503, stored 17.8 MB (incl. scales), saved 46.9% vs 16-bit
+  4-bit: mean abs error 0.09128, stored 9.4 MB (incl. scales), saved 71.9% vs 16-bit
+  (mean absolute value of the weights themselves: 0.79758)
