@@ -5,6 +5,7 @@
 **One-line answer:** they are three more ways a long context can hurt an LLM, alongside [context poisoning](what-is-context-poisoning.md). In Drew Breunig's taxonomy, distraction is when "a context grows so long that the model over-focuses on the context, neglecting what it learned during training," confusion is when "superfluous content in the context is used by the model to generate a low-quality response," and clash is "when you accrue new information and tools in your context that conflicts with other information in the context" [1].
 
 ![Bar chart: llama3.1:8b got 8 of 8 right with a clean prompt, with 40 irrelevant memos, and with two contradictory memos when newest-wins was stated or implied by order; it dropped to 2 of 8 when the newer memo was listed first](../assets/what-context-distraction-confusion-and-clash-are.svg)
+
 *One run: the irrelevant filler scored the same as the clean prompt, and the newer memo listed first scored 2 of 8.*
 
 ## The problem

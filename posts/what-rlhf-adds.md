@@ -1,10 +1,11 @@
 # What Does RLHF Add on Top of Fine-Tuning?
 
-*~2 min read*
+*~3 min read*
 
 **One-line answer:** RLHF replaces "write a correct example answer" with "rank a few answers from best to worst". This is easier for a human to do, and it gives the model a preference signal instead of a single right answer to copy [1].
 
 ![The RLHF loop: rank, reward model, PPO](../assets/what-rlhf-adds.svg)
+
 *Three extra pieces beyond plain fine-tuning: multiple outputs, a learned stand-in for human judgment, and a training algorithm that optimizes against it.*
 
 ## The problem

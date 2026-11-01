@@ -5,6 +5,7 @@
 **One-line answer:** when many requests start with the same long text, the provider can keep the model's already-processed "working notes" for that opening and reuse them, so only the new tail is read fresh. Anthropic describes this as "resuming from specific prefixes in your prompts," with cache read tokens at 0.1 times the base input tokens price, except for some models listed in a table footnote [1]. OpenAI says it lets you "avoid recalculating a prompt prefix that the model has already processed" [2].
 
 ![Bars: reading the prompt takes 359 ms when only the question changes, but about 35,700 ms when the first line changes](../assets/how-prompt-caching-works.svg)
+
 *Same handout every time; the only difference is where the change lands.*
 
 ## The problem

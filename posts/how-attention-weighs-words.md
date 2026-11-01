@@ -5,6 +5,7 @@
 **One-line answer:** attention computes a relevance score between a token and every other token in the input, turns those scores into weights that sum to 1, then blends the other tokens' information using those weights. So a model can connect "it" to a noun several words back just as easily as to the word right before it [1].
 
 ![Real attention weights from the word "it"](../assets/how-attention-weighs-words.svg)
+
 *"it" distributes its attention across every token at once. Trophy gets the biggest share.*
 
 | Token "it" attends to | Weight |

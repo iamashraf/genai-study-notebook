@@ -5,6 +5,7 @@
 **One-line answer:** compressing stored vectors means keeping fewer bits per number, or a short code per piece of the vector, so memory drops and the search can return a different set of nearest neighbours than the full-size vectors would.
 
 ![Recall@10 against float32: float16 and int8 at 1.000, 1-bit at 0.785, product quantization at 0.828](../assets/what-vector-quantization-trades-away.svg)
+
 *Bars are the recall@10 values printed by the demo run. Labels give bytes per vector.*
 
 ## The problem

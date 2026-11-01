@@ -5,6 +5,7 @@
 **One-line answer:** in indirect prompt injection the attacker never talks to the model directly. They plant instructions in content the system fetches later (a web page, email, PDF, [RAG](what-problem-does-rag-actually-solve.md) chunk, tool result). In my test a simple delimiter guard did not reduce how often the model followed the planted line (9 of 10 runs with the guard, 8 of 10 without); the Greshake et al. paper that named the attack argues that LLM-integrated applications "blur the line between data and instructions" [1].
 
 ![An attacker plants a hidden line in a document; later a retriever fetches it into the prompt beside the user's normal question, and the LLM obeys it](../assets/why-indirect-prompt-injection-is-harder.svg)
+
 *The red boxes are the attack. It enters through the document, never through the user's question.*
 
 ## The problem

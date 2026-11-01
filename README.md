@@ -81,3 +81,9 @@ private by default — only shared if you open the page and share it.
 | [What Does ScaNN Do Differently From Other Vector Indexes?](posts/what-scann-does-differently.md) |
 | [How Does Vector Search Decide Two Vectors Are Similar?](posts/how-vector-search-measures-similarity.md) |
 | [What Does Compressing Vectors Trade Away?](posts/what-vector-quantization-trades-away.md) |
+| [What Kinds of Memory Does an AI Agent Actually Have?](posts/what-kinds-of-memory-an-agent-has.md) |
+| [What Is CoALA, and Why Does It Split Agent Memory This Way?](posts/what-coala-is-and-why-agent-memory-splits-this-way.md) |
+| [What Is Semantic Memory in an AI Agent?](posts/what-semantic-memory-is-in-an-agent.md) |
+| [What Is Episodic Memory in an AI Agent?](posts/what-episodic-memory-is-in-an-agent.md) |
+| [What Is Procedural Memory in an AI Agent?](posts/what-procedural-memory-is-in-an-agent.md) |
+| [What Is Prospective Memory in an AI Agent?](posts/what-prospective-memory-is-in-an-agent.md) |

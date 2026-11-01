@@ -5,6 +5,7 @@
 **One-line answer:** prompt engineering is "methods for writing and organizing LLM instructions for optimal outcomes", meaning the wording, examples, and format of the ask itself. Context engineering is "the set of strategies for curating and maintaining the optimal set of tokens (information) during LLM inference," and it covers everything else the model sees: system prompt, retrieved documents, tool definitions, conversation history, and memory [1].
 
 ![The same prompt asked with no relevant context (answers 5 days, invented) versus the identical prompt plus a 2-sentence policy snippet (answers 6 days, correct)](../assets/what-context-engineering-is.svg)
+
 *Same wording both times. The only thing that changed was what else sat in the context window.*
 
 ## The problem

@@ -5,6 +5,7 @@
 **One-line answer:** instead of updating every weight, three papers keep the original model frozen and train only a small extra piece: adapter layers inserted into the model [1], a prefix of trainable vectors [2], or trainable "soft prompt" tokens at the input [3].
 
 ![Bar chart of added trainable parameters in one stated configuration: full fine-tuning 85,054,464, adapters 2,379,264, prefix tuning 368,640, prompt tuning 15,360](../assets/what-other-parameter-efficient-methods-exist.svg)
+
 *Arithmetic for one stated configuration, not a training run. Log scale.*
 
 ## The problem

@@ -5,6 +5,7 @@
 **One-line answer:** a neuron multiplies each input by a weight, adds a bias, and passes that single number through a nonlinear function. There is nothing biological about it, just arithmetic [1].
 
 ![A single neuron's weighted sum and activation](../assets/what-a-neuron-computes.svg)
+
 *Two numbers go in, one number comes out. Everything in between is the "neuron."*
 
 ## The problem

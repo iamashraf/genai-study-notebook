@@ -5,6 +5,7 @@
 **One-line answer:** before anything gets [embedded](what-is-an-embedding.md) or stored in a [vector database](why-you-cant-just-grep-your-way-to-semantic-search.md), a document has to be split into chunks. If a chunk boundary happens to fall in the middle of the fact you needed, no retrieval algorithm downstream can put the pieces back together, because that intact fact never existed as one retrievable unit in the first place [1].
 
 ![Where the chunk boundary falls on the same real sentence](../assets/why-chunking-strategy-matters-more-than-your-database.svg)
+
 *The same sentence, chunked two ways. Only one of them leaves the fact in one retrievable piece.*
 
 ```

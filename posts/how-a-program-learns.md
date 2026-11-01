@@ -1,12 +1,13 @@
 # How Can a Program "Learn" a Rule Nobody Programmed?
 
-*~3 min read*
+*~4 min read*
 
 **One-line answer:** machine learning is trial-and-error, automated: the program guesses, checks how wrong the guess was against real examples, and nudges itself a little less wrong. It repeats that thousands of times until it lands on a rule nobody ever typed in [1].
 
 **The shape of it, in plain terms:** it's the same motion as guessing a number while someone tells you "too high" or "too low" after each try. You don't know the answer up front, but each hint narrows where you guess next. A learning algorithm does exactly that, just with numbers instead of words for the hint, and thousands of tries instead of a handful.
 
 ![Loss dropping across 5 real gradient-descent steps](../assets/how-a-program-learns.svg)
+
 *"Loss" is just a number for "how wrong." Nobody set it. Five rounds of guess-and-correct brought it from very wrong (57) to barely wrong (0.027).*
 
 ## The problem

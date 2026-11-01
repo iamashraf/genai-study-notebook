@@ -5,6 +5,7 @@
 **One-line answer:** QLoRA keeps the frozen base model compressed to 4 bits and trains a small add-on on top of it. The paper says this "reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU" [1].
 
 ![Bars of memory needed to store 7B weights: 14.0 GB at 16-bit, 7.0 GB at 8-bit, 3.5 GB at 4-bit](../assets/what-qlora-adds-to-lora.svg)
+
 *Plain arithmetic printed by the demo: bytes = parameters x bits / 8.*
 
 ## The problem

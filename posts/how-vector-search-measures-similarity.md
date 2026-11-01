@@ -5,6 +5,7 @@
 **One-line answer:** vector search scores each pair of [embeddings](what-is-an-embedding.md) with one of a few measures: cosine similarity (do the arrows point the same way), dot product (direction and length together) or Euclidean distance (how far apart the arrow tips are).
 
 ![Bars showing how many of the top 5 sentences matched the query's topic for each of five queries](../assets/how-vector-search-measures-similarity.svg)
+
 *Printed by the run below: on-topic sentences among the cosine top 5, out of 5. Dot product and Euclidean distance returned the same five sentences in every case.*
 
 ## The problem

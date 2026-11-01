@@ -5,6 +5,7 @@
 **One-line answer:** guardrails are checks wrapped around an [LLM](what-is-an-llm.md): filters on what goes in, filters on what comes out, and sometimes a second model acting as judge. In this demo a keyword rule caught the 2 word-for-word attacks and missed the 6 that were reworded, spaced out, translated, or base64-encoded. OWASP's own guidance says "it is unclear if there are fool-proof methods of prevention for prompt injection" [1].
 
 ![Bar chart: a keyword rule caught 2 of 8 attacks and wrongly blocked 1 of 4 harmless inputs; a llama3.1:8b classifier caught 8 of 8 and blocked none wrongly](../assets/what-guardrails-do-and-dont-catch.svg)
+
 *Same 12 inputs, two guards: the keyword rule missed six attacks; the llama3.1:8b judge missed none on this tiny set.*
 
 ## The problem

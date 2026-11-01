@@ -1,10 +1,11 @@
 # Why Doesn't an AI Have to Think Like a Human?
 
-*~2 min read*
+*~3 min read*
 
 **One-line answer:** artificial intelligence is the engineering of machines that behave intelligently, and nothing in that definition requires copying how a human brain works [1].
 
 ![A fixed rule vs a searched decision](../assets/why-ai-doesnt-have-to-think-like-a-human.svg)
+
 *Only the chess engine evaluates and chooses between options. That's the behavior "AI" actually names, not how human-like the method looks.*
 
 | | Thermostat (fixed rule) | Chess engine (AI) |

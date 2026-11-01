@@ -5,6 +5,7 @@
 **One-line answer:** just-in-time context means an [agent](ai-agents-vs-agentic-ai.md) doesn't preload everything that might be relevant. It keeps lightweight pointers (file paths, stored queries, links) and uses tools to load the details only when it needs them. Anthropic describes agents that "maintain lightweight identifiers (file paths, stored queries, web links, etc.) and use these references to dynamically load data into context at runtime using tools" [1].
 
 ![Bar chart: preloading all 8 documents cost 6,863 tokens over 5 questions and got 5 right; the just-in-time approach cost 1,549 tokens and got 4 right](../assets/what-just-in-time-context-is.svg)
+
 *Same 5 questions, same model: about 4.4 times fewer tokens, with one fewer correct answer.*
 
 ## The problem

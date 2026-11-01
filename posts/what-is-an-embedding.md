@@ -5,6 +5,7 @@
 **One-line answer:** an embedding is a list of numbers assigned to a [token](what-is-a-token.md), learned during [training](how-a-program-learns.md) so that tokens used in similar ways end up close together in that number-space, close enough that you can measure it [1].
 
 ![Cosine similarity: cat is closer to kitten than to car](../assets/what-is-an-embedding.svg)
+
 *Same first letter, same length. "Kitten" still sits much closer to "cat" in embedding space than "car" does.*
 
 | Pair | Cosine similarity |

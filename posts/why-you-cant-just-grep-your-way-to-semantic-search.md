@@ -1,10 +1,11 @@
 # Why Can't You Just Grep Your Way to Semantic Search?
 
-*~3 min read*
+*~4 min read*
 
 **One-line answer:** a vector database stores every document as its [embedding](what-is-an-embedding.md) and finds matches by comparing vectors with cosine similarity, instead of comparing text. So it can find a document that means the same thing as your query even when it doesn't share a single word with it.
 
 ![Real similarity scores for a zero-keyword-overlap query](../assets/why-you-cant-just-grep-your-way-to-semantic-search.svg)
+
 *Zero shared words with the winning document. The embeddings place "money back" and "refunds" close together anyway.*
 
 | Query | Closest document (by meaning, not by shared words) | Score |

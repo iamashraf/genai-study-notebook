@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 548" width="640" height="548" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="640" height="548" fill="#fcfcfb"/>
+
+<rect x="1" y="1" width="638" height="546" rx="10" fill="#fcfcfb" stroke="#d8d6cd" stroke-width="1.2"/>
+<text x="320.0" y="26.0" font-size="14.5" fill="#0b0b0b" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Procedural Memory</text>
+<line x1="20" y1="46" x2="620" y2="46" stroke="#e1e0d9" stroke-width="1"/>
+<rect x="20" y="60" width="600" height="115" rx="7" fill="#2a78d6" fill-opacity="0.07"/>
+<rect x="20" y="60" width="4" height="115" rx="2" fill="#2a78d6"/>
+<circle cx="49" cy="87" r="13" fill="#2a78d6"/>
+<text x="49" y="87.0" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">1</text>
+<text x="72" y="87.0" font-size="11" fill="#52514e" font-weight="700" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">WHAT IT IS</text>
+<text x="72" y="113.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A stored routine or skill an agent reuses instead of re-deriving it. CoALA names it</text>
+<text x="72" y="130.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">procedural memory: implicit knowledge in the LLM&#x27;s weights, plus explicit knowledge</text>
+<text x="72" y="147.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">written into the agent&#x27;s code [1].</text>
+<rect x="20" y="187" width="600" height="98" rx="7" fill="#1baf7a" fill-opacity="0.07"/>
+<rect x="20" y="187" width="4" height="98" rx="2" fill="#1baf7a"/>
+<circle cx="49" cy="214" r="13" fill="#1baf7a"/>
+<text x="49" y="214.0" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">2</text>
+<text x="72" y="214.0" font-size="11" fill="#52514e" font-weight="700" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">WHY IT MATTERS</text>
+<text x="72" y="240.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Without it, every task is solved from zero. With it, a known method is retrieved and</text>
+<text x="72" y="257.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">reused, the way Voyager retrieves a code-based skill instead of rewriting it [2].</text>
+<rect x="20" y="297" width="600" height="98" rx="7" fill="#eda100" fill-opacity="0.07"/>
+<rect x="20" y="297" width="4" height="98" rx="2" fill="#eda100"/>
+<circle cx="49" cy="324" r="13" fill="#eda100"/>
+<text x="49" y="324.0" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">3</text>
+<text x="72" y="324.0" font-size="11" fill="#52514e" font-weight="700" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">WHERE IT LIVES</text>
+<text x="72" y="350.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">Outside the context window, in a skill library: a vector database keyed by the</text>
+<text x="72" y="367.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">embedding of what the skill does, valued by the skill itself [2].</text>
+<rect x="20" y="407" width="600" height="115" rx="7" fill="#6250d6" fill-opacity="0.07"/>
+<rect x="20" y="407" width="4" height="115" rx="2" fill="#6250d6"/>
+<circle cx="49" cy="434" r="13" fill="#6250d6"/>
+<text x="49" y="434.0" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">4</text>
+<text x="72" y="434.0" font-size="11" fill="#52514e" font-weight="700" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">EXAMPLE</text>
+<text x="72" y="460.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">A venue-finding method (filter by area, by headcount, by availability, sort by</text>
+<text x="72" y="477.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">price) is retrieved by embedding similarity for a new, different venue request and</text>
+<text x="72" y="494.3" font-size="12.5" fill="#0b0b0b" font-weight="400" text-anchor="start" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">reused instead of re-derived.</text>
+</svg>

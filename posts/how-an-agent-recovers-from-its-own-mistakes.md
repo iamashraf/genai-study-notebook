@@ -5,6 +5,7 @@
 **One-line answer:** an [agent](ai-agents-vs-agentic-ai.md) loop can hand a failure back to the model as an observation it reads on the next turn. In one small run of this demo only, a descriptive error fixed 4 of 5 tasks and a vague one fixed 0 of 5.
 
 ![Attempt 1 is rejected, the error text goes back to the model, and attempt 2 changes the format](../assets/how-an-agent-recovers-from-its-own-mistakes.svg)
+
 *The blue box is the whole mechanism: the failure becomes text the model reads before its next move.*
 
 ## The problem

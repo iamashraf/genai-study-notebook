@@ -5,6 +5,7 @@
 **One-line answer:** context compaction is what an [agent](ai-agents-vs-agentic-ai.md) does when its conversation nears the [context window](what-a-context-window-actually-limits.md) limit: it replaces the long history with a short summary and carries on from there. Anthropic defines it as "taking a conversation nearing the context window limit, summarizing its contents, and reinitiating a new context window with the summary" [1].
 
 ![A 24-turn, 365-word history is shrunk to a roughly 100-word summary, and the next step sees only the summary](../assets/what-context-compaction-is.svg)
+
 *Everything after the middle box is built on the summary alone; whatever it left out is gone.*
 
 ## The problem

@@ -1,10 +1,11 @@
 # Why Does the Same Prompt Give a Different Answer Each Time?
 
-*~2 min read*
+*~3 min read*
 
 **One-line answer:** an LLM's output goes through a "temperature" setting that controls how randomly it samples from its predicted next-token probabilities. Temperature 0 always picks the single most likely token (so the same prompt gives the same answer every time). Higher temperatures let it occasionally pick a less-likely one, which is where the variation comes from [1].
 
 ![Temperature 0 (identical) vs temperature 1 (varied)](../assets/why-the-same-prompt-gives-different-answers.svg)
+
 *Same model, same prompt, same weights. Only the sampling knob changed between the two outcomes.*
 
 ```

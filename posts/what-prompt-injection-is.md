@@ -1,10 +1,11 @@
 # What Is Prompt Injection?
 
-*~3 min read*
+*~4 min read*
 
 **One-line answer:** prompt injection is when text that was supposed to be mere *data* for an [LLM](what-is-an-llm.md) to work on contains an instruction the model obeys instead of the developer's; OWASP lists it as LLM01 in its 2025 list of LLM risks [1], and Simon Willison's September 2022 post compared it to SQL injection [2].
 
 ![The developer's instruction and a customer letter containing an injected line both flow into one text channel, and the output is the word PWNED](../assets/what-prompt-injection-is.svg)
+
 *Nothing in the model marks one box as "boss" and the other as "mail". Both arrive as the same kind of text.*
 
 ## The problem

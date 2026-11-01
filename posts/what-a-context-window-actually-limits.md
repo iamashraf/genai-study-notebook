@@ -1,10 +1,11 @@
 # What Is a "Context Window," and Why Does It Run Out?
 
-*~2 min read*
+*~3 min read*
 
 **One-line answer:** a context window is every [token](what-is-a-token.md) a model can see at once (the whole conversation so far plus its own reply, all counted together), and once that total hits the model's fixed limit, nothing older fits anymore [1].
 
 ![Token budgets across GPT-2, this project, and Claude Sonnet 5](../assets/what-a-context-window-actually-limits.svg)
+
 *The exact same real token count either overflows a window ten times over, or barely registers, depending only on the model.*
 
 ```

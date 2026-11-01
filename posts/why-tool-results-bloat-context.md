@@ -5,6 +5,7 @@
 **One-line answer:** when an [agent](ai-agents-vs-agentic-ai.md) calls a tool, the raw output is added to its [context window](what-a-context-window-actually-limits.md) and stays there for later steps, so in this demo ten chatty tool calls add up to 46,219 tokens against 1,240 for trimmed results. Anthropic's suggested fixes are to return less from the tool, clear old results, or keep lightweight identifiers instead of the data [1][2].
 
 ![Line chart: raw tool dumps climb to 46,219 tokens over 10 steps while trimmed results stay near 1,240](../assets/why-tool-results-bloat-context.svg)
+
 *Same 10 tool calls, same answer in the data: one line keeps every raw dump, the other keeps only the fields the question needs.*
 
 ## The problem

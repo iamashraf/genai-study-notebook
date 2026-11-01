@@ -5,6 +5,7 @@
 **One-line answer:** a transformer is a stack of layers, each combining [self-attention](how-attention-weighs-words.md) with a simple feed-forward step. But self-attention alone treats its input as an unordered set, so the model has to be told each token's position separately, by adding position information directly into the input [1].
 
 ![The transformer block, repeated N times](../assets/why-transformers-need-position.svg)
+
 *Position gets added once, at the very bottom. Everything above it is the same two-step block, repeated.*
 
 ## The problem

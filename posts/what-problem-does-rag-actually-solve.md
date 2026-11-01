@@ -5,6 +5,7 @@
 **One-line answer:** Retrieval-Augmented Generation (RAG) combines a pretrained [LLM](what-is-an-llm.md)'s own learned knowledge (its "parametric memory") with a live, searchable index of outside documents (a "non-parametric memory"). It fetches the relevant documents at the moment you ask, instead of relying only on whatever got baked into the model's weights during [training](how-a-program-learns.md) [1].
 
 ![The RAG pipeline: retrieve, then generate](../assets/what-problem-does-rag-actually-solve.svg)
+
 *The LLM never had to memorize these documents during training. It's reading them fresh, every time, as part of the prompt.*
 
 ## The problem

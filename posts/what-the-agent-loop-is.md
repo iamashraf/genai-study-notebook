@@ -5,6 +5,7 @@
 **One-line answer:** an agent is a model run inside a loop: decide an action, call a tool, read the result, append it to the context, and go round again until the model says it is done. Anthropic puts it plainly: agents "are typically just LLMs using tools based on environmental feedback in a loop" [1].
 
 ![Loop: the model picks an action, a tool runs, the result is appended to context, and the model reads it again; the loop exits when the model answers final](../assets/what-the-agent-loop-is.svg)
+
 *Every trip around the loop adds tokens to the context; the only exit is the model choosing "final".*
 
 ## The problem

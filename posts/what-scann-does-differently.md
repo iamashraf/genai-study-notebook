@@ -5,6 +5,7 @@
 **One-line answer:** ScaNN is Google Research's vector search library. Its paper's idea is about compression: when vectors are squeezed to make search faster, the paper's loss weights the squeezing error along the vector's own direction more heavily than the error sideways to it [1][2]. In the demo below, a unit of error along the vector moved the scores of the true top-10 pairs 5.5 times as much as a unit of sideways error.
 
 ![Bars from one synthetic run: mean squared score change per unit of error, along the vector and sideways, for the true top-10 pairs and for random pairs](../assets/what-scann-does-differently.svg)
+
 *Printed numbers from the demo below (synthetic data, one run).*
 
 ## The problem

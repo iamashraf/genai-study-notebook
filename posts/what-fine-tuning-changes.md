@@ -5,6 +5,7 @@
 **One-line answer:** fine-tuning is a second round of [training](how-a-program-learns.md), starting from an already-pretrained model's weights instead of zero, using a smaller, specific dataset to shift its behavior [1].
 
 ![Fine-tuning as a further training pass on existing weights](../assets/what-fine-tuning-changes.svg)
+
 *Nothing new is built. The same nudge-toward-less-error procedure just runs again, on different data.*
 
 ## The problem

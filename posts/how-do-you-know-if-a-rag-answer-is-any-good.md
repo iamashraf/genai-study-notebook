@@ -5,6 +5,7 @@
 **One-line answer:** "LLM-as-a-judge" means using a second LLM call to grade the first one's answer against the retrieved context on a rubric. The rubric is usually faithfulness (does it contradict the context), relevance (does it address the question), and completeness. This is used because checking thousands of open-ended answers by hand doesn't scale, and a strong LLM judge is "a scalable and explainable way to approximate human preferences," which are otherwise expensive to collect at scale [1].
 
 ![Judge scores: faithful answer vs fabricated answer](../assets/how-do-you-know-if-a-rag-answer-is-any-good.svg)
+
 *Same judge, same rubric, same context. It scores the faithful answer high and the fabrication low.*
 
 ```

@@ -5,6 +5,7 @@
 **One-line answer:** chain-of-thought prompting gets the model to write out its intermediate reasoning steps before the final answer, instead of jumping straight to it. This matters because an [LLM](what-is-an-llm.md) only has its own already-generated tokens to condition on, so writing the steps out loud gives it a working memory it otherwise wouldn't have [1].
 
 ![Direct answer (wrong) vs chain-of-thought (correct)](../assets/what-thinking-step-by-step-actually-changes.svg)
+
 *Same model, same weights. Forcing the intermediate step into visible tokens is what gets the second halving done.*
 
 | Prompt | Model's answer | Correct? |

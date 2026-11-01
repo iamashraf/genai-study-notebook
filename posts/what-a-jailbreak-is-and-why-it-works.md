@@ -5,6 +5,7 @@
 **One-line answer:** a jailbreak is an input that gets a model to do something its own safety training was meant to prevent, and the Wei et al. "Jailbroken" paper hypothesizes two failure modes of that training to explain why such attacks succeed: "competing objectives" and "mismatched generalization" [1].
 
 ![Two rows, one per local model, of six prompt framings; a direct ask was refused by both, while some reframings leaked the secret word](../assets/what-a-jailbreak-is-and-why-it-works.svg)
+
 *Same rule, same models, same secret: the direct ask held both times, but different reframings broke it.*
 
 ## The problem

@@ -5,6 +5,7 @@
 **One-line answer:** a large language model is a [neural network](what-a-neuron-computes.md) [trained](how-a-program-learns.md) on huge amounts of text to do one job: guess the next [token](what-is-a-token.md) in a sequence. Almost everything it can do comes out of doing that one job extremely well [1].
 
 ![Next-token prediction over candidate words](../assets/what-is-an-llm.svg)
+
 *The model isn't "answering a question." It's scoring every possible next token and picking from the likely ones, once per token, every token.*
 
 ## The problem

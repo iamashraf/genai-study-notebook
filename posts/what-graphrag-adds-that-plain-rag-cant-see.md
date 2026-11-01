@@ -5,6 +5,7 @@
 **One-line answer:** GraphRAG has an LLM build an actual knowledge graph (entities as nodes, relationships as explicit edges) out of your documents first, so it can answer questions that require connecting facts spread across multiple documents. [Plain RAG](what-problem-does-rag-actually-solve.md)'s independent, unconnected chunks structurally can't do that [1].
 
 ![A real two-hop entity graph](../assets/what-graphrag-adds-that-plain-rag-cant-see.svg)
+
 *No single chunk states "Jane manages the system this project depends on". That fact only exists by walking both edges.*
 
 ```

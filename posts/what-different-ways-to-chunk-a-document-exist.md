@@ -5,6 +5,7 @@
 **One-line answer:** beyond plain [fixed-size chunking](why-chunking-strategy-matters-more-than-your-database.md), there are a few genuinely different rules for deciding where to cut a document. One is recursive splitting that falls back through separators ("paragraphs, sentences and words" [1]). Another is semantic chunking, which cuts where the *meaning* shifts rather than where the token count runs out. The third is structure-aware chunking, which cuts along a document's own headings, sections, or code boundaries instead of ignoring them.
 
 ![Fixed-size vs semantic chunking on the same six sentences](../assets/what-different-ways-to-chunk-a-document-exist.svg)
+
 *Fixed-size chunking doesn't know a new topic started mid-chunk. Semantic chunking found the real boundary.*
 
 ## The problem

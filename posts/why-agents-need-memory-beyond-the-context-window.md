@@ -1,10 +1,11 @@
 # Why Do Agents Need Memory Beyond the Context Window?
 
-*~3 min read*
+*~4 min read*
 
 **One-line answer:** the [context window](what-a-context-window-actually-limits.md) is the model's short-term memory and is "short and finite" [2], so an [agent](ai-agents-vs-agentic-ai.md) that must carry knowledge across sessions writes notes to storage outside the window and pulls them back in later [1][3].
 
 ![Session 1 ends and its window is wiped; the notes saved in a memory file are retrieved into session 2's empty window](../assets/why-agents-need-memory-beyond-the-context-window.svg)
+
 *In this demo, the only thing that crosses from session 1 to session 2 is the file in the middle.*
 
 ## The problem
@@ -45,7 +46,7 @@ Run it with `uv run examples/why-agents-need-memory-beyond-the-context-window/me
 
 A note is read back in as written. If it is wrong, the next session starts from the wrong note, which is [context poisoning](what-is-context-poisoning.md).
 
-When the window fills up instead of resetting, see [context compaction](what-context-compaction-is.md); to load notes only when needed, see [just-in-time context](what-just-in-time-context-is.md).
+When the window fills up instead of resetting, see [context compaction](what-context-compaction-is.md); to load notes only when needed, see [just-in-time context](what-just-in-time-context-is.md). This post treats "memory outside the window" as one idea; for the different shapes that memory actually takes (a fact, a past event, a learned routine, a future commitment, and more), see [what kinds of memory does an AI agent actually have](what-kinds-of-memory-an-agent-has.md).
 
 ## Takeaway
 

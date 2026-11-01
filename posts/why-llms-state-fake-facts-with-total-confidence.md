@@ -5,6 +5,7 @@
 **One-line answer:** a "hallucination" is an LLM generating content that sounds fluent and plausible but isn't backed by anything real. It happens because the model's whole job is predicting a plausible next [token](what-is-a-token.md), which is a different thing from knowing whether that token is true [1].
 
 ![How a fabrication gets generated with no truth-check step](../assets/why-llms-state-fake-facts-with-total-confidence.svg)
+
 *There's no "I don't know" branch built into the mechanism, just the same scoring process that produces true answers too.*
 
 ```

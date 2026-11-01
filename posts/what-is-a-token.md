@@ -5,6 +5,7 @@
 **One-line answer:** an LLM never reads letters or whole words. A tokenizer breaks text into pieces from a fixed, trained vocabulary first, and the model only ever sees those pieces as numbers [1].
 
 !["strawberry" split into 3 real tokens](../assets/what-is-a-token.svg)
+
 *The model never sees the word "strawberry". It sees three integers. These are shown decoded back into the substrings they stand for.*
 
 ## The problem

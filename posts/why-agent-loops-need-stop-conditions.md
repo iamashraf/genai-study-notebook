@@ -5,6 +5,7 @@
 **One-line answer:** an [agent](ai-agents-vs-agentic-ai.md) is a model called in a loop, and a loop repeats until some rule ends it. Stop rules include a step limit, a repeat-call check, a timeout and a human checkpoint. Anthropic says it is "common to include stopping conditions (such as a maximum number of iterations) to maintain control" [1].
 
 ![Bar chart: 4,485 input tokens over 15 calls with no stop rule versus 411 over 3 calls with repeat detection](../assets/why-agent-loops-need-stop-conditions.svg)
+
 *Same failing tool, same model: the only difference is whether anything was allowed to say "stop".*
 
 ## The problem

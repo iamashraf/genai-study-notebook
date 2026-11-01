@@ -5,6 +5,7 @@
 **One-line answer:** keyword search (BM25) and [vector search](why-you-cant-just-grep-your-way-to-semantic-search.md) fail in opposite situations: BM25 can't find a paraphrase with zero shared words, while vector search gives every document a fuzzy nonzero score even when it has no real match. So "hybrid search" runs both and combines the results, instead of betting everything on one [1].
 
 ![Real BM25 vs vector scores per query](../assets/why-rag-systems-combine-keyword-and-vector-search.svg)
+
 *Same three documents. BM25 wins the exact-match query, vector search wins the paraphrase, and hybrid search is why you don't have to pick.*
 
 ```

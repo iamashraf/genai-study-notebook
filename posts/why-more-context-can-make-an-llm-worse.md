@@ -1,10 +1,11 @@
 # Why Can Giving an LLM More Context Make It Worse, Not Better?
 
-*~4 min read*
+*~5 min read*
 
 **One-line answer:** a bigger [context window](what-a-context-window-actually-limits.md) means a model *can* hold more tokens, not that it uses all of them equally well. Researchers who tested models on long inputs found "a U-shaped performance curve—models are better at using relevant information that occurs at the very beginning (primacy bias) or end of its input context (recency bias), and performance degrades significantly when models must access and use information located in the middle of its input context" [1], well before anything is actually dropped for lack of space.
 
 ![Recall accuracy across every needle-in-haystack condition tested, all 5/5](../assets/why-more-context-can-make-an-llm-worse.svg)
+
 *Every condition I tried locally still returned the exact code. The degradation this post is about didn't show up at the scale a quick local test can reach.*
 
 ## The problem

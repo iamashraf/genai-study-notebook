@@ -1,10 +1,11 @@
 # What Is Context Poisoning?
 
-*~4 min read*
+*~5 min read*
 
 **One-line answer:** context poisoning is when a wrong or [hallucinated](why-llms-state-fake-facts-with-total-confidence.md) fact gets written into an LLM agent's own context (a tool result, a memory note, an earlier turn, a retrieved document) and then keeps getting treated as established truth. Google's Gemini team coined the term in the Gemini 2.5 report after watching a Pokémon-playing Gemini agent's "goals" and "summary" sections get "poisoned" with bad game-state info that "can often take a very long time to undo" [1], and practitioner Drew Breunig generalized the pattern: "a hallucination or other error makes it into the context, where it is repeatedly referenced" [2].
 
 ![Step 1 plants a wrong fact in context; step 2 answers from that note without re-checking it](../assets/what-is-context-poisoning.svg)
+
 *Neither red box is a fresh mistake. Both are the same planted fact, once written and once reused.*
 
 ## The problem

@@ -5,6 +5,7 @@
 **One-line answer:** few-shot prompting puts a handful of example input→output pairs directly in the prompt, so the model can pick up a brand-new pattern at inference time, with no weight update. Zero-shot and one-shot are the same mechanism, just with 0 and 1 examples instead of several [1].
 
 ![Zero-shot vs few-shot on a made-up word](../assets/why-a-few-examples-teach-what-instructions-cant.svg)
+
 *No retraining happened between these two calls. Only what sat in the prompt changed.*
 
 | Setting | Demonstrations in the prompt | What the model gets |

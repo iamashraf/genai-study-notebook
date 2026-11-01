@@ -1,10 +1,11 @@
 # Why Does Giving an LLM Tools Raise the Security Stakes?
 
-*~3 min read*
+*~4 min read*
 
 **One-line answer:** when an LLM can call tools, a manipulated output can turn into an action. OWASP calls this Excessive Agency, "the vulnerability that enables damaging actions to be performed in response to unexpected, ambiguous or manipulated outputs from an LLM" [1]. OWASP's prevention list includes limiting the tools, limiting their permissions, and requiring human approval for high-impact actions [1].
 
 ![An agent reads a note with a hidden order; read_note is allowed, send_email is removed, delete_file needs human approval](../assets/why-an-agent-with-tools-raises-the-stakes.svg)
+
 *Same hidden order in the note; the only thing that changed is which doors the agent can open.*
 
 ## The problem

@@ -5,6 +5,7 @@
 **One-line answer:** a [vector database](why-you-cant-just-grep-your-way-to-semantic-search.md) can organize its stored vectors a few different ways before you ever ask it a question. It can compare against everything (flat), cluster first and only search the nearest cluster (IVF), or build a graph of nearby neighbors and hop through it (HNSW). Whichever you pick, "there is always a trade-off between search-speed and search-quality (accuracy)" [1].
 
 ![Flat vs IVF: vectors visited for the same query](../assets/what-different-vector-index-strategies-trade-off.svg)
+
 *Same 9 real documents, same query. Flat visits all of them; IVF-style visits only the nearest cluster.*
 
 ## The problem

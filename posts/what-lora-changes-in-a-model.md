@@ -5,6 +5,7 @@
 **One-line answer:** LoRA leaves the original weights untouched and trains a small add-on instead, the way you clip a 2-page errata sheet onto a 500-page manual rather than rewriting the manual. The LoRA paper describes it as one that "freezes the pretrained model weights and injects trainable rank decomposition matrices" [1].
 
 ![Bars of final error for LoRA rank 1, 2, 4 and 8 in a toy run: 0.759, 0.558, 0.000, 0.000](../assets/what-lora-changes-in-a-model.svg)
+
 *Toy run, printed by the script below: the error is near zero from rank 4 on, which is the rank of the planted change.*
 
 ## The problem

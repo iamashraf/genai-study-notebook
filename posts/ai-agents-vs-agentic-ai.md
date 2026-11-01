@@ -5,6 +5,7 @@
 **One-line answer:** both terms describe systems built from the same pieces (an [LLM](what-is-an-llm.md), some tools it can call, some instructions). Anthropic's own framing groups all of these under one umbrella, "agentic systems," then splits them by how much the LLM itself is steering: a **workflow** follows a path a human wrote in code, while an **agent** decides its own next step at run time [1].
 
 ![Workflow (fixed code path) vs agent (LLM decides) for the same task](../assets/ai-agents-vs-agentic-ai.svg)
+
 *Same building blocks, same task. The only difference is who picks the next step.*
 
 | Term | Who decides what happens next | Example |

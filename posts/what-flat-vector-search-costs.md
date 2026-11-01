@@ -1,10 +1,11 @@
 # What Does a Flat (Full-Scan) Vector Search Actually Cost?
 
-*~2 min read*
+*~3 min read*
 
 **One-line answer:** a flat index answers a query by comparing it with every stored vector, so the work per query grows with the number of vectors; in the run below, one query took 0.09 ms over 10,000 vectors and 5.49 ms over 500,000.
 
 ![Bar chart of full-scan time per query in this run: 0.09, 0.60, 0.93, 3.71 and 5.49 ms for 10,000 to 500,000 vectors](../assets/what-flat-vector-search-costs.svg)
+
 *Median time for one full-scan query on synthetic vectors, on one machine. The bars come from `output.txt`.*
 
 ## The problem

@@ -71,6 +71,21 @@ def _text_lines(x, y, lines, size=13, color=INK, weight="400", anchor="middle", 
     return "\n".join(out)
 
 
+def _text_block(x, top_y, lines, size=13, color=INK, weight="400", family=FONT, line_h=16):
+    """Left-aligned, TOP-anchored multi-line text (no vertical centering) -- use for
+    body paragraphs stacked under a fixed header, where _text_lines' center-on-y
+    behavior would shift a long wrapped block up into whatever sits above it."""
+    out = []
+    baseline_offset = line_h * 0.78
+    for i, line in enumerate(lines):
+        y = top_y + i * line_h + baseline_offset
+        out.append(
+            f'<text x="{x}" y="{y:.1f}" font-size="{size}" fill="{color}" '
+            f'font-weight="{weight}" text-anchor="start" font-family="{family}">{esc(line)}</text>'
+        )
+    return "\n".join(out)
+
+
 def header(w, h):
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" '
@@ -89,6 +104,8 @@ def _prep_node(n):
     if n.get("shape") == "circle":
         r = n.get("r", 34)
         lines = _wrap(n["text"], max(8, int(r * 0.34)))
+        line_h = 16
+        r = max(r, len(lines) * line_h / 2 + 14)  # grow for wrapped text, same spirit as box height growth below
         n["_lines"], n["_r"] = lines, r
         return n
     bw = n.get("w", 140)
@@ -358,5 +375,63 @@ def render_proximity(title, center, items, w=480, h=190):
         parts.append(f'<circle cx="{x}" cy="{cy}" r="24" fill="{color}" opacity="0.14" stroke="{color}" stroke-width="1.4"/>')
         parts.append(_text_lines(x, cy - 2, [label], size=11, color=INK, weight="700"))
         parts.append(_text_lines(x, cy + 14, [f"{sim:.3f}"], size=9.5, color=SUBINK, weight="700", family=MONO))
+    parts.append(FOOTER)
+    return "\n".join(parts)
+
+
+# ---------- F. info card (stacked labeled fields, no data to encode) ----------
+
+CARD_FIELD_COLORS = [C1, C3, C4, C7]  # fixed order: identity / value / location / illustration -- never cycled
+
+
+def render_card(title, fields, w=640):
+    """fields: [(label, body_text)] in a fixed 4-role order (e.g. WHAT IT IS / WHY IT
+    MATTERS / WHERE IT LIVES / EXAMPLE). Each field is its own component panel: a
+    numbered badge in that field's fixed categorical color (CARD_FIELD_COLORS, same
+    order every time this is used across the project), a light tint background, and
+    a solid left accent border -- so the card reads as stacked components, not a
+    flat paragraph of labeled text."""
+    pad = 20
+    panel_pad_x, panel_pad_y = 16, 14
+    badge_r = 13
+    header_h = 30  # badge + label row
+    body_gap = 6
+    body_size = 12.5
+    body_line_h = 17
+    max_chars = max(20, int((w - 2 * pad - 2 * panel_pad_x - badge_r * 2 - 12) / 6.3))
+
+    rows = []
+    for i, (label, text) in enumerate(fields):
+        color = CARD_FIELD_COLORS[i % len(CARD_FIELD_COLORS)]
+        lines = _wrap(text, max_chars)
+        panel_h = panel_pad_y * 2 + header_h + body_gap + len(lines) * body_line_h
+        rows.append((label, lines, color, panel_h))
+
+    title_max_chars = max(10, int((w - 2 * pad) / 8.2))
+    title_lines = _wrap(title, title_max_chars)
+    title_h = 30 + max(0, len(title_lines) - 1) * 20 + 16  # grows if the title wraps past one line
+    row_gap = 12
+    content_h = sum(ph for *_, ph in rows) + row_gap * (len(rows) - 1)
+    h = title_h + content_h + pad * 2
+
+    parts = [header(w, h)]
+    parts.append(f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="1.2"/>')
+    parts.append(_text_lines(w / 2, 26, title_lines, size=14.5, color=INK, weight="700", line_h=20))
+    parts.append(f'<line x1="{pad}" y1="{title_h}" x2="{w-pad}" y2="{title_h}" stroke="{GRIDLINE}" stroke-width="1"/>')
+
+    y = title_h + pad - 6
+    panel_x, panel_w = pad, w - 2 * pad
+    for i, (label, lines, color, panel_h) in enumerate(rows):
+        parts.append(f'<rect x="{panel_x}" y="{y}" width="{panel_w}" height="{panel_h}" rx="7" fill="{color}" fill-opacity="0.07"/>')
+        parts.append(f'<rect x="{panel_x}" y="{y}" width="4" height="{panel_h}" rx="2" fill="{color}"/>')
+        bx = panel_x + panel_pad_x + badge_r
+        by = y + panel_pad_y + badge_r
+        parts.append(f'<circle cx="{bx}" cy="{by}" r="{badge_r}" fill="{color}"/>')
+        parts.append(_text_lines(bx, by, [str(i + 1)], size=12, color="#ffffff", weight="700"))
+        lx = panel_x + panel_pad_x + badge_r * 2 + 10
+        parts.append(_text_lines(lx, by, [label], size=11, color=SUBINK, weight="700", anchor="start"))
+        body_top = y + panel_pad_y + header_h + body_gap - 10
+        parts.append(_text_block(lx, body_top, lines, size=body_size, color=INK, line_h=body_line_h))
+        y += panel_h + row_gap
     parts.append(FOOTER)
     return "\n".join(parts)

@@ -5,6 +5,7 @@
 **One-line answer:** an IVF index sorts vectors into clusters ahead of time, then searches only the few clusters nearest to the query. Faiss describes the two settings: `nlist`, "the number of cells", and `nprobe`, "the number of cells (out of `nlist`) that are visited to perform a search" [1]. Search fewer cells and it is faster, but a true neighbour in an unsearched cell is missed.
 
 ![Recall@10 for 1, 2, 4, 8, 16 and 32 clusters searched](../assets/how-ivf-trades-recall-for-speed.svg)
+
 *Recall@10 and share of vectors compared, from the saved run below (synthetic data).*
 
 ## The problem
